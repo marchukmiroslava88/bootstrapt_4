@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="../assets/javascript/build/style.css">
+
+    <title>Flex</title>
+</head>
+<body>
+<!--
+    Задачи:
+        1. Разместить на одинаковом расстоянии без отступов от контейнера.
+        2. Прибить к правому краю
+        3. Развернуть колонки в обратном направлении
+        4. Выровнять вертикально по центру
+        5. Прибить к низу
+
+        Для всех задач использовать классы Bootstrap 4
+        Ожидаемый результат смотри в references/flex
+-->
+
+<div class="container mt-5">
+    <div class="d-flex border">
+        <div class="p-2 m-1 bg-info">column 1</div>
+        <div class="p-2 m-1 bg-info">column 2</div>
+        <div class="p-2 m-1 bg-info">column 3</div>
+    </div>
+    <div class="d-flex border">
+        <div class="p-2 m-1 bg-info">column 1</div>
+        <div class="p-2 m-1 bg-info">column 2</div>
+        <div class="p-2 m-1 bg-info">column 3</div>
+    </div>
+    <div class="d-flex border justify-content-center">
+        <div class="p-2 m-1 bg-info">column 1</div>
+        <div class="p-2 m-1 bg-info">column 2</div>
+        <div class="p-2 m-1 bg-info">column 3</div>
+    </div>
+    <div class="d-flex border" style="height: 200px">
+        <div class="p-2 m-1 bg-info">column 1</div>
+        <div class="p-2 m-1 bg-info">column 2</div>
+        <div class="p-2 m-1 bg-info">column 3</div>
+    </div>
+    <div class="d-flex border" style="height: 200px">
+        <div class="p-2 m-1 bg-info">column 1</div>
+        <div class="p-2 m-1 bg-info">column 2</div>
+        <div class="p-2 m-1 bg-info">column 3</div>
+    </div>
+</div>
+
+</body>
+</html>
