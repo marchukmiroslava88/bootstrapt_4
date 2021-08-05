@@ -4,7 +4,8 @@
   "description": "start template front",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --mode development --config ./webpack.config.js --open --hot",
+    "watch": "webpack --watch --mode development",
+    "dev": "npm run watch & webpack-dev-server --mode development --config ./webpack.config.js --open --hot",
     "build": "webpack -p --config ./webpack.config.js  --progress --colors"
   },
   "keywords": [],
